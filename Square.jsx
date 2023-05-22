@@ -1,7 +1,7 @@
 import React from "react";
 
 const Square = (props) => {
-  console.log(props.squares, props.player); // Logging squares and player to the console
+  console.log(props.squares, props.player); 
 
   const handleClick = () => {
     if (!props.squareValue) {
